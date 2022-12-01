@@ -1,7 +1,8 @@
 package day04_test;
+import java.util.Scanner;
 
 public class C04_test {
-    public static <Scanner> void main(String[] args) {
+    public static  void main(String[] args) {
         // kullanicidan ismini isteyin
         // girilen ismi
         // isminiz : Ercan    seklinde yazdirin
@@ -17,9 +18,11 @@ public class C04_test {
 
         // 3- olusturdugumuz scan objesi ile kullanicinin girdigi degeri alip
         // olusturacagimiz uygun bir variable'a atayalim
-
-        String kullaniciIsmi=scan.next();
-
+        String kullaniciIsmi=Scan.next();
         System.out.println("Isminiz: " + kullaniciIsmi);
+
+
+
+
     }
 }
