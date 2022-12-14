@@ -1,4 +1,4 @@
-package day12_stringManipulations;
+package day13_test;
 
 import java.util.Scanner;
 
