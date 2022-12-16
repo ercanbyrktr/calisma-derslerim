@@ -20,7 +20,7 @@ public class C04_MethodCreation {
 
     }
 
-    private static void topla(int input1, int input2) {
+    public static void topla(int input1, int input2) {
         //3.adim method deklarasyonunda degistirilmesi gereken
         // bolumleri degistir (access modifier, return Type vb...)
         //4. eger return type void disinda bir seyse
