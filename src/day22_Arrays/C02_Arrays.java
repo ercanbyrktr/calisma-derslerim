@@ -25,6 +25,9 @@ public class C02_Arrays {
         System.out.println(Arrays.toString(siniflist)); // [Ali,Ayse,Ahmet]
 
         siniflist[1]="Hasan";
-        System.out.println(Arrays.toString(siniflist));
+        System.out.println(Arrays.toString(siniflist)); // [Ali, Hasan, Ahmet]
+
+        System.out.println(siniflist[1]); // Hasan
+        System.out.println(siniflist[0]); // Ali
     }
 }
