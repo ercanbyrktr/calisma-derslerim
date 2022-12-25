@@ -8,5 +8,20 @@ public class C03_MdaIstenenSayilariYazdirma {
         int [][] sayilar= {{1,5,6,9},{2,5},{3,1,6}};
         [0][0] + [1][1] + [2][2] ....
          */
+
+        int [][] sayilar= {{1,5,6,9},{2,5},{3,1,6}};
+
+        int istenenToplam=0;
+
+        for (int i = 0; i <sayilar.length ; i++) {
+            for (int j = 0; j <sayilar[i].length ; j++) {
+
+                if (i==j){
+                    istenenToplam+=sayilar[i][j];
+                }
+            }
+
+        }
+        System.out.println("istenen toplam:" + istenenToplam);
     }
 }
