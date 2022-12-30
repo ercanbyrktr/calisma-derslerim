@@ -11,10 +11,10 @@ public class Car {
     burada belirlenen variable ve method'lara gore araba üretir
      */
 
-    String marka="Marka belirtilmedi";
-    String model="Model belirtilmedi";
-    int yil;
-    int fiyat;
+    public String marka="Marka belirtilmedi";
+    public String model="Model belirtilmedi";
+    public int yil;
+    public int fiyat;
 
     public void benzinliArac(){
         System.out.println("Bu arac benzinli motora sahiptir");
