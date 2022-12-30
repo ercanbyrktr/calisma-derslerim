@@ -3,10 +3,10 @@ package day28_constructor;
 public class Araba {
     public String marka="Marka belirtilmedi";
     public String model="Model belirtilmedi";
-    public String yil;
+    public int yil;
     public int fiyat;
 
-    public Araba(String markaR, String modelR, String yilR, int fiyatR) {
+    public Araba(String markaR, String modelR, int yilR, int fiyatR) {
         marka=markaR;
         model=modelR;
         yil= yilR;
